@@ -33,6 +33,7 @@ class TodoList extends React.Component {
 			<div>
 			    {this.state.index !== '' ? (<input 
 				    value={this.state.text}
+				    autoFocus="true"
 					onChange={this.handleNewTodoChange.bind(this)}
 					onKeyPress={this.handleNewTodoKeyPress.bind(this)}
 				    />) : ''

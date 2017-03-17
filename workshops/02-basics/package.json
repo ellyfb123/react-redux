@@ -1,0 +1,14 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "next dev"
+  },
+  "dependencies": {
+    "next": "^1.2.3",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0"
+  }
+}
