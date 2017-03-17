@@ -1,5 +1,11 @@
+import App from "./app"
+
 export default props => (
   <div>
-    Hello React!
+  	<header className="header">
+  		<App />
+  	</header>
   </div>
 )
+
+
